@@ -9,7 +9,8 @@ print('• Autores:' + '\n'+'\n'+
 
 print('Tó(math.pi)cos de Óptica de Física Moderna – CF3121\n'
 'NL1 – A1 : Ondas Eletromagnéticas com Python\n\n'
-'• As OEM ou Ondas Eletromagnéticas são a energia elétrica e magnética liberadas em conjunto que, por se movimentarem na velocidade da luz, tomam a forma de uma onda.\n Para que tal efeito ocorra o campo eletromagnético oscila em uma direção enquanto o campo magnético oscila em outra, fazendo com que a onda se propague em uma só direção.\n\n'
+'• As OEM ou Ondas Eletromagnéticas são a energia elétrica e magnética liberadas em conjunto que, por se movimentarem na velocidade da luz, tomam a forma de uma onda.\n Para que tal efeito ocorra o campo eletromagnético oscila em uma direção enquanto o campo magnético oscila em outra, fazendo com que a onda se propague em uma só direção, seguindo a regra da mão direita.\n\n'
+'• O programa tem limatações referente a necessidade de uma única entrada de valor. Portando é necessário para realização das contas você utilize um único input para então se necessário, realizar outra conta que requer um input diferente.\n\n'
 '• O programa consiste em um menu com várias opções de entrada de valores referentes a Ondas Eletromagnéticas que, por meio de contas que o programa realizará,\n retornarão outros valores, estes são, respectivamente:\n\n'
 
 'Amplitude do Campo Elétrico (Em) = Bm ; I\n'
