@@ -93,12 +93,12 @@ def numeroQuantico():
     En = -13.6 / (n ** 2)
     Yn = (h / (m * Vn)) * nm
 
-    print(f'raio da órbita[m]: {color.italic}{Rn:.3f} nm{color.normal}\n')
+    print(f'raio da órbita[m]: {color.italic}{Rn:.3f} m{color.normal}\n')
     print(f'velocidade[m/s]: {color.italic}{Vn:.3f} m/s{color.normal}\n')
     print(f'energia cinética[eV]: {color.italic}{Kn:.3f} eV{color.normal}\n')
     print(f'energia potencial[eV]: {color.italic}{Un:.3f} ev{color.normal}\n')
     print(f'energia total[eV]: {color.italic}{En:.3f} eV{color.normal}\n')
-    print(f'comprimento de onda de De Broglie do elétron [nm]: {color.italic}{Yn:.3f} m{color.normal}\n')
+    print(f'comprimento de onda de De Broglie do elétron [m]: {color.italic}{Yn:.3f} m{color.normal}\n')
 
 
 def energiaFoton():
@@ -116,7 +116,7 @@ def energiaFoton():
     nf = float(input(f'{color.normal}n final:{color.blue} \n'))
     print(f'{color.normal}')
 
-    Yf = abs(1 / (R * ((1 / (nf ** 2)) - (1 / (ni ** 2)))))
+    Yf = abs(1 / (R * ((1 / (ni ** 2)) - (1 / (nf ** 2)))))
     Ff = (c / Yf)
     Ef = (h * c) / Yf
 
